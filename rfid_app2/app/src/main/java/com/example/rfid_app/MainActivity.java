@@ -357,7 +357,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "Device support check - Model: " + model + ", Supported: " + isSupported);
         return isSupported;
     }
-
     private void initializeReader() {
         try {
             if (!isDeviceSupported()) {
