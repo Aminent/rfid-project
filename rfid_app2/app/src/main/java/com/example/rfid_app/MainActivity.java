@@ -351,7 +351,6 @@ public class MainActivity extends AppCompatActivity {
                 || Build.PRODUCT.contains("sdk_gphone")
                 || Build.PRODUCT.contains("sdk_x86");
     }
-
     private boolean isDeviceSupported() {
         String model = Build.MODEL.toLowerCase();
         boolean isSupported = model.contains("c72e");
