@@ -92,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
             isEmulatorMode = true;
         }
     }
-
     private void testServerConnection() {
         apiService.testConnection(new RFIDApiService.ApiCallback<String>() {
             @Override
