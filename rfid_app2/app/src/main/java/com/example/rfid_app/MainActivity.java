@@ -107,7 +107,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
     private void showAddAssetDialog(String tagId) {
         if (tagId == null) {
             showToast("No tag selected. Please scan a tag first.");
