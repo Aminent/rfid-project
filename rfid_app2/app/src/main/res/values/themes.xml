@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Rfid_app" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Color theming -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorError">@color/error</item>
+        
+        <!-- System bars -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        
+        <!-- Default styles -->
+        <item name="materialButtonStyle">@style/AppButton</item>
+        <item name="materialCardViewStyle">@style/AppCard</item>
+    </style>
+
+    <style name="Theme.Rfid_app" parent="Base.Theme.Rfid_app" />
+
+    <!-- Custom Styles -->
+    <style name="AppButton" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="android:padding">16dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:letterSpacing">0.025</item>
+        <item name="android:textSize">16sp</item>
+        <item name="elevation">2dp</item>
+    </style>
+
+    <style name="AppCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="TextHeadline" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="TextBody" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
